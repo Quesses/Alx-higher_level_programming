@@ -16,7 +16,6 @@ class Square:
         @param size: integer value > 0.
         """
 
-        self.__size = size
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:

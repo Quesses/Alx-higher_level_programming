@@ -74,4 +74,3 @@ class Square:
     def __ge__(self, other):
         """ defines >= operation between 2 square instances """
         return self.area() >= other.area()
-

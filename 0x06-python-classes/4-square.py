@@ -10,20 +10,19 @@ class Square:
         Initialize the square with a size (private instantiation)
         Either default size 0 or specified size
 
-        Args:
-            size (int): integer value > 0.
+        :param size: integer value (>= 0)
         """
 
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
-        
+
         self.__size = size
 
-    @classmethod
+    @property
     def size(self):
-        """ returs the size of square
+        """ returns the size of square
 
         Returns:
             size of square
@@ -31,13 +30,18 @@ class Square:
 
         return self.__size
 
-    @classmethod
+    @size.setter
     def size(self, value):
         """ Setter, sets the size of square
 
         Args:
             value (int): size of square
         """
+
+        if type(size) is not int:
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
 
         self.__size = value
 

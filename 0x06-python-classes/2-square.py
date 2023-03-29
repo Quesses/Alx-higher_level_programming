@@ -13,7 +13,7 @@ class Square:
         Initialize the square with a size
         size is specified otherwise default size 0 is used
 
-        :param size: integer value > 0.
+        @param size: integer value > 0.
         """
 
         self.__size = size

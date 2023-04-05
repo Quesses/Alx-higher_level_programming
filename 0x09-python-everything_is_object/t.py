@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-LockedClass = __import__('101-locked_class').LockedClass
+def assign_value(n, v):
+    n = v
 
-lc = LockedClass()
-lc.first_name = "John"
-try:
-    lc.last_name = "Snow"
-except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
+print(l2)

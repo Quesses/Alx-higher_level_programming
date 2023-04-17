@@ -1,16 +1,6 @@
 0x0C. Python - Almost a circle
 ==============================
 
--   By Guillaume
--   Weight: 1
--   Ongoing project - started 12-23-2021, must end by 01-04-2022 (in 11 days) - you're done with 0% of tasks.
--   Checker will be released at 01-03-2022 01:12 AM
--   **Manual QA review must be done** (request it when you are done with the project)
--   QA review fully automated.
-
-Background Context
-------------------
-
 The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
 
 In this project, you will review everything about Python:

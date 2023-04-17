@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class base"""
+"""base class module"""
 import os.path
 import json
 import csv
@@ -16,6 +16,7 @@ class Base:
         else:
             self.id = id
 
+'''
     @staticmethod
     def to_json_string(list_dictionaries):
         """returns the JSON string representation of list_dictionaries"""
@@ -133,4 +134,4 @@ class Base:
         for idx in range(len(matrix)):
             list_ins.append(cls.create(**matrix[idx]))
 
-        return list_ins
+        return list_ins '''

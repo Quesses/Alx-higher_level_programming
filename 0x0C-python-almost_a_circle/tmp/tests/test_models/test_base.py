@@ -12,7 +12,7 @@ class TestBaseMethods(unittest.TestCase):
     """To test Base class"""
 
     def setUp(self) -> None:
-        Base._Base__nb_objects = 0
+        Base._Base__nb_objects = 0def test_id_nb_objects(self):
         """ Test nb object attribute """
         new = Base()
         new2 = Base()

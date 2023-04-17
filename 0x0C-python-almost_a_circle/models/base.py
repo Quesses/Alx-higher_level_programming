@@ -6,7 +6,7 @@ import csv
 
 
 class Base:
-    __nd_oblects = 0
+    __nd_objects = 0
     """Base class for other classes"""
 
     def __init__(self, id=None):
@@ -94,7 +94,7 @@ class Base:
         if not list_objs:
             pass
         else:
-            for odj in lis_objs:
+            for obj in list_objs:
                 for key in range(len(list_keys)):
                     list_dict[key] = obj.to_dictionary()[list_key[key]]
                 matrix.append(list_dict[:])

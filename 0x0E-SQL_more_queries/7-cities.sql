@@ -8,10 +8,10 @@ use hbtn_0d_usa;
 -- unique id, auto generated, primary and cant be null
 -- name cant be null and a state_id which is a foreign key
 CREATE TABLE IF NOT EXISTS cities(
-	id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	PRIMARY KEY(id),
+	id INT AUTO_INCREMENT NOT NULL,
 	state_id INT NOT NULL,
 	name VARCHAR(256) NOT NULL,
-	UNIQUE(id)
 	FOREIGN KEY(state_id)
 	REFERENCES states(id)
 	);

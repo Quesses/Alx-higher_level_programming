@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const dict = require('101-data').dict;
+const dict = require('./101-data').dict;
 const dicKeys = Object.keys(dict);
 const dicVals = Object.values(dict);
 const result = {};
